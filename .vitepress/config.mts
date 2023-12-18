@@ -5,9 +5,11 @@ export default defineConfig({
   title: "IDE CLI",
   description: "A Personnal CLI",
   lang: "en-US",
-  // cleanUrls: true,
+  cleanUrls: true,
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    
     nav: [
       { text: "Home", link: "/" },
       { text: "Docs", link: "/docs/installation" },
@@ -41,7 +43,6 @@ export default defineConfig({
         ],
       },
     ],
-
     socialLinks: [{ icon: "github", link: "https://github.com/Piarre/IDE" }],
   },
 });
