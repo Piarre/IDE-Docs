@@ -5,7 +5,7 @@ export default defineConfig({
   title: "IDE CLI",
   description: "A Personnal CLI",
   lang: "en-US",
-  cleanUrls: true,
+  // cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
