@@ -12,7 +12,7 @@ export default defineConfig({
     
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/docs/installation" },
+      { text: "Docs", link: "/doc/installation" },
     ],
     sidebar: [
       {
@@ -20,17 +20,17 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: "Installation", link: "/docs/installation" },
-              { text: "License", link: "/docs/license" },
+              { text: "Installation", link: "/doc/installation" },
+              { text: "License", link: "/doc/license" },
             ],
           },
           {
             text: "Templates",
-            base: "/docs/templates/",
+            base: "/doc/templates/",
             items: [
               {
                 text: "TypeScript",
-                base: "/docs/templates/typescript",
+                base: "/doc/templates/typescript",
                 items: [
                   { text: "Simple TS Project", link: "/vanilla" },
                   { text: "Library", link: "/library" },
