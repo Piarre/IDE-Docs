@@ -5,7 +5,7 @@ title: License
 # MIT License
 
 | Permissions                       | Limitations   | Conditions                                        |
-| --------------------------------- | ------------- | ------------------------------------------------- |
+|-----------------------------------|---------------|---------------------------------------------------|
 | :white_check_mark: Commercial use | :x: Liability | :information_source: License and copyright notice |
 | :white_check_mark: Modification   | :x: Warranty  |                                                   |
 | :white_check_mark: Distribution   |               |                                                   |

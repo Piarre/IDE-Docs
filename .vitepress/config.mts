@@ -9,10 +9,10 @@ export default defineConfig({
   base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    
+
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/doc/installation" },
+      { text: "Docs", link: "/docs/installation" },
     ],
     sidebar: [
       {
@@ -20,22 +20,22 @@ export default defineConfig({
         items: [
           {
             items: [
-              { text: "Installation", link: "/doc/installation" },
-              { text: "License", link: "/doc/license" },
+              { text: "Installation", link: "/docs/installation" },
+              { text: "License", link: "/docs/license" },
             ],
           },
           {
             text: "Templates",
-            base: "/doc/templates/",
+            base: "/docs/templates/",
             items: [
               {
                 text: "TypeScript",
-                base: "/doc/templates/typescript",
+                base: "/docs/templates/typescript",
                 items: [
                   { text: "Simple TS Project", link: "/vanilla" },
                   { text: "Library", link: "/library" },
                 ],
-              },     
+              },
               { text: "NextJS", link: "/nextjs" },
               { text: "Python", link: "/python" },
             ],
@@ -44,5 +44,9 @@ export default defineConfig({
       },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/Piarre/IDE" }],
+    footer: {
+      copyright: "Piarre",
+      message: "MIT License",
+    },
   },
 });

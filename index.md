@@ -10,16 +10,16 @@ hero:
     - theme: brand
       text: Get Started
       link: /docs/installation
-features:
-  - icon: ⚡️
-    title: TypeScript
-    
-  - icon:
-      src: /assets/typescript.svg
-    title: TypeScript
-  - icon:
-      src: /assets/python.svg
-    title: Python
+#features:
+#  - icon: ⚡️
+#    title: TypeScript
+#    
+#  - icon:
+#      src: /assets/typescript.svg
+#    title: TypeScript
+#  - icon:
+#      src: /assets/python.svg
+#    title: Python
 ---
 
 <style>
