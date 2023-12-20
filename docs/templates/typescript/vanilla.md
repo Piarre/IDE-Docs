@@ -7,7 +7,7 @@ title: Vanilla
 ## Usage
 
 ```bash
-ide ts .
+ide ts
 ```
 
 ### Available options
